@@ -80,7 +80,7 @@ You probably want some method to ensure that communications you read came from s
 
 Bytecode is the language that Java gets translated to, so that computers can run it. 
 Each line of Bytecode is a single instruction like "add", "multiply", "store some value in a variable".
-Each turn a Robot can use 10,000 Bytecode. After that, he just stops whereever he is in his code, and picks up where he left off next round.
+Each turn a Robot can use 10,000 Bytecode. After that, he just stops wherever he is in his code, and picks up where he left off next round.
 You don't want to go over the limit. Your code needs to be pretty fast.
 
 Iterating through large arrays is expensive, try not to do that, or do it sparingly. This is probably the biggest source of slowness.
