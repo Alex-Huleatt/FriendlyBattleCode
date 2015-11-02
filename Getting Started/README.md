@@ -56,7 +56,7 @@ We do this like so:
 		//something that throws an error here
 	}
 
-Normally you would specify what *type* of error gets thrown, but there is probably more than one and then it looks ugly. (Please don't think this is good programming)
+Normally you would specify what *type* of error gets thrown, but there is probably more than one and then it looks ugly and is tedious to write. (Please don't think this is good programming)
 
 ##Communication
 
