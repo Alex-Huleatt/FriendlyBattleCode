@@ -94,7 +94,7 @@ In this version of BattleCode, you have a resource that is somewhat dependent on
 * Your HQ spawns units. 
 * There is a cooldown on spawning units.
 
-* Soldiers (the unit spawned by the HQ) does damage to something just by being near it.
+* Soldiers (the units spawned by the HQ) do damage to something just by being near it.
 
 * There are 2 types of things that can be on the ground.
 	* Mines, which can be yours (don't do damage to you), enemies', or neutral (which hurt everyone).
