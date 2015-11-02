@@ -9,7 +9,9 @@ public class RobotPlayer {
 		while (1) {
 			try {
 				Unit u = typeSwitch(rc.getType());
-				u.run();
+				if (u != null) {
+					u.run(); //this function needs to *never* end, unless error is thrown.
+				}
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
