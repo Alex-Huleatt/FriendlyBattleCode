@@ -97,13 +97,13 @@ In this version of BattleCode, you have a resource that is somewhat dependent on
 * Soldiers (the unit spawned by the HQ) does damage to something just by being near it.
 
 * There are 2 types of things that can be on the ground.
-** Mines, which can be yours (don't do damage to you), enemies', or neutral (which hurt everyone).
-** Encampment squares where you can build structures.
+	* Mines, which can be yours (don't do damage to you), enemies', or neutral (which hurt everyone).
+	* Encampment squares where you can build structures.
 
 * There are 2 important resources you need to pay attention to.
-** Power, which is required to *do* anything: build structures, move units, whatever.
-*** This is one value shared by your entire team.
-*** If you don't have enough, your robots start taking damage.
-** Energon, which is *not* shared and is essentially how much health a robot has.
+	* Power, which is required to *do* anything: build structures, move units, whatever.
+		* This is one value shared by your entire team.
+		* If you don't have enough, your robots start taking damage.
+	* Energon, which is *not* shared and is essentially how much health a robot has.
 
 
